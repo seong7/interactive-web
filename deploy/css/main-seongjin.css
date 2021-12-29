@@ -148,6 +148,21 @@ a {
     background: darkorange;
 }
 
+.sticky-elem {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#show-scene0 #scroll-section-0 .sticky-elem,
+#show-scene1 #scroll-section-1 .sticky-elem,
+#show-scene2 #scroll-section-2 .sticky-elem,
+#show-scene3 #scroll-section-3 .sticky-elem {
+    display: block;
+}
+
 @media (min-width: 1024px) {
     #scroll-section-0 h1 {
         font-size: 9vw;
